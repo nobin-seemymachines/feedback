@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/small_logo-transparent.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>TM Feedback</title>
+</head>
+
+<body>
+
+    <!-- header - navabar -->
+    <header>
+        <!-- <h1>TM Feedback</h1> -->
+        <h2>Rate Your Visit</h2>
+        <img src="images/small_logo.png" alt="menu-btn">
+    </header>
+
+    <!-- container-section -->
+    <div class="container">
+            <!-- <div class="title">
+                <p>Your Feedback Shapes Our Future</p>
+            </div> -->
+        <div class="emoji-box">
+            <div class="bad" onclick="selectEmoji(1); checkSubmitButton()" id="emojidiv1">
+                <!-- <img src="images/Emoji1.png" alt=""> -->
+                <img src="images/img1.svg" alt="" id="img1">
+                <p>Bad</p>
+            </div>
+            <div class="okay" onclick="selectEmoji(2); checkSubmitButton()" id="emojidiv2">
+                <!-- <img src="images/Emoji2.png" alt=""> -->
+                <img src="images/img2.svg" alt="" id="img2">
+                <p>Good</p>
+            </div>
+            <div class="great" onclick="selectEmoji(3); checkSubmitButton()" id="emojidiv3">
+                <!-- <img src="images/Emoji3.png" alt=""> -->
+                <img src="images/img3.svg" alt="" id="img3">
+                <p>Excellent</p>
+            </div>
+        </div>
+        <div class="submit-btn"><button id="sub-btn">Submit</button></div>
+    </div>
+
+    <!-- footer -->
+    <!-- <footer>
+        <img src="images/seemymachines.png" alt="footer-logo">
+    </footer> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
